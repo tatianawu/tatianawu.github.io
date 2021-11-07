@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title Resume - Start Bootstrap Theme
+        title Tatiana Wu
 
         link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
 
@@ -27,7 +27,7 @@ html(lang='en')
         // Navigation
         nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
             a.navbar-brand.js-scroll-trigger(href='#page-top')
-                span.d-block.d-lg-none Clarence Taylor
+                span.d-block.d-lg-none Tatiana Wu
                 span.d-none.d-lg-block
                     img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpg', alt='...')
             button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
@@ -37,15 +37,17 @@ html(lang='en')
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#about') About
                     li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#education') Education
+                    li.nav-item
                         a.nav-link.js-scroll-trigger(href='#experience') Experience
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#education') Education
+                        a.nav-link.js-scroll-trigger(href='#projects') Projects
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#skills') Skills
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#interests') Interests
+                        a.nav-link.js-scroll-trigger(href='#activities') Activities
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#awards') Awards
+                        a.nav-link.js-scroll-trigger(href='#contact') Contact
 
         // Page Content
         .container-fluid.p-0
@@ -53,66 +55,23 @@ html(lang='en')
             // About
             section#about.resume-section
                 .resume-section-content
-                    h1.mb-0
-                        | Clarence 
-                        span.text-primary Taylor
+                    h1.mb-2
+                        | Tatiana 
+                        span.text-primary Wu
                     .subheading.mb-5
-                        | 3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 · 
-                        a(href='mailto:name@email.com') name@email.com
-                    p.lead.mb-5
-                        | I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+                        | ML @ Google &nbsp; · &nbsp; Previously CS @ Stanford
+                    p.lead.mb-5.
+                        Hi, I'm Tatiana!
+                        I graduated from Stanford University with
+                        a B.S. in Mathematical and Computational Science, an M.S. in Computer Science, and a minor in creative writing.
+                        I’m particularly interested in machine learning and data science, and in the intersection of technology, social good, and ethics.
+                        In my spare time, I enjoy fiction writing, playing piano, and teaching math and music theory.
+                        Feel free to check out my LinkedIn or GitHub below, or use the navbar to learn more about me.
                     .social-icons
-                        a.social-icon(href='#!')
+                        a.social-icon(href='https://www.linkedin.com/in/tatiana-wu/' target='_blank')
                             i.fab.fa-linkedin-in
-                        a.social-icon(href='#!')
+                        a.social-icon(href='https://github.com/tatianawu' target='_blank')
                             i.fab.fa-github
-                        a.social-icon(href='#!')
-                            i.fab.fa-twitter
-                        a.social-icon(href='#!')
-                            i.fab.fa-facebook-f
-
-            hr.m-0
-
-            // Experience
-            section#experience.resume-section
-               .resume-section-content
-                    h2.mb-5 Experience
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 Senior Web Developer
-                            .subheading.mb-3 Intelitec Solutions
-                            p
-                                | Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
-                        .flex-shrink-0
-                            span.text-primary March 2013 - Present
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 Web Developer
-                            .subheading.mb-3 Intelitec Solutions
-                            p
-                                | Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
-                        .flex-shrink-0
-                            span.text-primary December 2011 - March 2013
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 Junior Web Designer
-                            .subheading.mb-3 Shout! Media Productions
-                            p
-                                | Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.
-                        .flex-shrink-0
-                            span.text-primary July 2010 - December 2011
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between
-                        .flex-grow-1
-                            h3.mb-0 Web Design Intern
-                            .subheading.mb-3 Shout! Media Productions
-                            p
-                                | Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
-                        .flex-shrink-0
-                            span.text-primary September 2008 - June 2010
 
             hr.m-0
 
@@ -121,22 +80,190 @@ html(lang='en')
                 .resume-section-content
                     h2.mb-5 Education
 
+                    h3.mb-3 Stanford University
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
+                        .flex-grow-1
+                            .subheading.mb-2 Master of Science
+                            div #[em Computer Science - Artificial Intelligence Track]
+                            p GPA: 4.105
+                            div #[strong Relevant Coursework:]
+                            ul
+                                li #[strong CS 221:] Artificial Intelligence: Principles and Techniques
+                                li #[strong CS 224N:] Natural Language Processing with Deep Learning
+                                li #[strong CS 224U:] Natural Language Understanding
+                                li #[strong CS 228:] Probabilistic Graphical Models: Principles and Techniques
+                                li #[strong CS 229:] Machine Learning
+                                li #[strong CS 231N:] Convolutional Neural Networks for Visual Recognition
+
+                        .flex-shrink-0
+                            span.text-primary January 2020 - June 2021
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
+                        .flex-grow-1
+                            .subheading.mb-2 Bachelor of Science
+                            div #[em Mathematical and Computational Science]
+                            div #[em Minor in Creative Writing - Prose Track]
+                            p GPA: 3.995
+                            div.d-flex.flex-column.flex-md-row.row
+                                div.col #[strong Computer Science Coursework:]
+                                    ul
+                                        li #[a(href="https://cs.stanford.edu/degrees/undergrad/Requirements.shtml#Core") CS Core]
+                                        li #[strong CS 142:] Web Applications
+                                        li #[strong CS 148:] Introduction to Computer Graphics and Imaging
+                                        li #[strong CS 154:] Introduction to Automata and Complexity Theory
+                                        li #[strong CS 168:] The Modern Algorithmic Toolbox
+                                        li #[strong CS 182:] (#[em Writing Intensive]) Ethics, Public Policy, and Technological Change
+                                        li #[strong CS 242:] Programming Languages
+                                        li #[strong CS 261:] Optimization and Algorithmic Paradigms
+                                        li #[strong CS 399:] CS Research (2020-2021 school year)
+                                div.col #[strong Math/Engineering Coursework:]
+                                    ul
+                                        li #[strong Math 51:] Linear Algebra and Differential Calculus of Several Variables
+                                        li #[strong Math 52:] Integral Calculus of Several Variables
+                                        li #[strong Math 53:] Ordinary Differential Equations with Linear Algebra
+                                        li #[strong Math 104:] Applied Matrix Theory
+                                        li #[strong MS&E 211X:] Introduction to Optimization
+                                        li #[strong MS&E 221:] Stochastic Modeling
+                                        li #[strong Stats 191:] Introduction to Applied Statistics
+                                        li #[strong Stats 200:] Introduction to Statistical Inference
+                                        li #[strong Stats 202:] Data Mining and Analysis
+
+                                div.col #[strong Creative Writing Coursework:]
+                                    ul
+                                        li #[strong English 90:] Fiction Writing
+                                        li #[strong English 92:] Reading and Writing Poetry
+                                        li #[strong English 146S:] Secret Lives of the Short Story
+                                        li #[strong English 190E:] Novel Writing Intensive
+                                        li #[strong English 190YA:] Young Adult Fiction
+
+                        .flex-shrink-0
+                            span.text-primary September 2017 - June 2021
+
+            hr.m-0
+
+            // Experience
+            section#experience.resume-section
+               .resume-section-content
+                    h2.mb-5 Work Experience
+
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 University of Colorado Boulder
-                            .subheading.mb-3 Bachelor of Science
-                            div Computer Science - Web Development Track
-                            p GPA: 3.23
+                            h3.mb-0 Software Engineer
+                            .subheading.mb-3 Google
+                            p
+                                | Working on ML models on the #[strong Ad Traffic Quality team].
                         .flex-shrink-0
-                            span.text-primary August 2006 - May 2010
+                            span.text-primary August 2021 - Present
 
-                    .d-flex.flex-column.flex-md-row.justify-content-between
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 James Buchanan High School
-                            .subheading.mb-3 Technology Magnet Program
-                            p GPA: 3.56
+                            h3.mb-0 Researcher
+                            .subheading.mb-3 Stanford University
+                            p
+                                | I was accepted as part of the Autumn 2020 cohort for the
+                                | #[a(href="https://stanfordmlgroup.github.io/programs/aicc-bootcamp/") AI for Climate Change bootcamp]
+                                | at #[strong Stanford ML Group] under #[strong Prof. Andrew Ng].
+                            p
+                                | I worked with a small group of other cohort members to learn urban representations for neighborhoods using spatiotemporal data.
+                            p
+                                em Languages/Frameworks: Python, PyTorch (Lightning)
                         .flex-shrink-0
-                            span.text-primary August 2002 - May 2006
+                            span.text-primary September 2020 - July 2021
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Software Engineering Intern
+                            .subheading.mb-3 Google
+                            p
+                                | I interned on the #[strong AdWords Conversion Tracking (AWCT) team] under #[strong Google Ads].
+                            p
+                                | My work focused on updating and improving one of my team's models for conversion tracking.
+                                | In particular, I built deep neural networks (DNNs) for a multiclass classification task and applied model improvements by adding new features and tuning the model hyperparameters and architecture.
+                                | I also led and documented the migration process from TF1 to TF2 and Keras for my team's existing models.
+                            p
+                                | Unfortunately, I can't provide any more details about the project tasks or model performance.
+                                | However, I'm happy to talk about the high-level technical work I did.
+                            p
+                                em Languages/Frameworks: C++, Python, TensorFlow, Keras
+                        .flex-shrink-0
+                            span.text-primary June 2020 - September 2020
+
+            hr.m-0
+
+            section#experience.resume-section
+               .resume-section-content
+                    h2.mb-5 Other Experience
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Data Analysis Consultant
+                            .subheading.mb-3 Matrix Capital Management
+                            p
+                                | I worked on a project for #[strong MCM] through #[strong Alpha Kappa Psi] (Stanford's pre-professional business fraternity)
+                                | to visualize the ongoing economic impact of COVID-19.
+                            p
+                                | Using Flask and Flask-SQLAlchemy, I built a web application to facilitate data querying and visualization for data stored in a PostgresSQL database.
+                                | I implemented basic login and authentication for the application and exception handling for improper queries to the database.
+                            p
+                                | The web application I built allows MCM to remove the intermediary between non-technical company members and the unprocessed economic data.
+                                | Using the query API, users can specify companies (or industries) of interest and visualize economic data without having to deal with PostgresSQL or the backend data analysis.
+                            p
+                                em Languages/Frameworks: Python, HTML/CSS, Flask
+                        .flex-shrink-0
+                            span.text-primary August 2021 - Present
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Equity Research Consultant
+                            .subheading.mb-3 Parnassus Investments
+                            p
+                                | I assisted in constructing investment memos for companies with strong ESG merits.
+                            p
+                                | I worked in small groups of 2-3 weekly to research a new company and draft one-hour drills summarizing the information in an investment thesis.
+                        .flex-shrink-0
+                            span.text-primary April 2019 - May 2019
+
+            hr.m-0
+
+            section#projects.resume-section
+               .resume-section-content
+                    h2.mb-5 Projects
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Photo App
+                            .subheading.mb-3 Class project for CS 142: Web Applications.
+                            p
+                                | I built a #[a(href="https://drive.google.com/file/d/128MsDmVBJkE5FOqeL75qV2VBhI68ZODA/view?usp=sharing" target="_blank") photo web app]
+                                | using Node.js and React.
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Typologically Diverse QA: How many training examples do you need for a new language anyway?
+                            .subheading.mb-3 Class project for CS 224N: Natural Language Processing with Deep Learning.
+                            p
+                                | Our #[a(href="https://txw.s3.us-west-1.amazonaws.com/cs224n-report.pdf" target="_blank") project]
+                                | extends from #[a(href="https://storage.cloud.google.com/tydiqa/tydiqa.pdf" target="_blank") Clark et al.] 's
+                                | "TyDi QA: A Benchmark for Information-Seeking Question Answering in #[em Ty]pologically #[em Di]verse Languages."
+                                | We performed experiments holding out varying amounts of training data from the TyDi QA dataset for the Golden Passage (GoldP) task and evaluating model performance
+                                | to determine (1) whether our model generalizes well to new languages and (2) how little training data is needed to achieve a baseline model performance.
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Read it on Reddit: LSTM Networks for Text Classification
+                            .subheading.mb-3 Class project for CS 221: Artificial Intelligence.
+                            p
+                                | My group implemented several LSTM networks with and without convolutional layers and word embeddings to classify Reddit self-posts into genres.
+                                | Our models achieved a test accuracy of 78.7% and a balanced accuracy of 75.8% against an imbalanced dataset with 39 classes.
+                    
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 #[em Memorium:] Alexa Skill
+                            .subheading.mb-3 Stanford TreeHacks 2018.
+                            p
+                                | I took part in designing and testing #[em Memorium], an Alexa Skill that has conversations with a user and performs a sentiment analysis to classify a memory based on a sentiment score.
+                                | Our project won the award for #[strong Best Voice Experience Using Amazon Alexa].
 
             hr.m-0
 
@@ -144,110 +271,110 @@ html(lang='en')
             section#skills.resume-section
                 .resume-section-content
                     h2.mb-5 Skills
-                    .subheading.mb-3 Programming Languages & Tools
-                    ul.list-inline.dev-icons
-                        li.list-inline-item
-                            i.fab.fa-html5
-                        li.list-inline-item
-                            i.fab.fa-css3-alt
-                        li.list-inline-item
-                            i.fab.fa-js-square
-                        li.list-inline-item
-                            i.fab.fa-angular
-                        li.list-inline-item
-                            i.fab.fa-react
-                        li.list-inline-item
-                            i.fab.fa-node-js
-                        li.list-inline-item
-                            i.fab.fa-sass
-                        li.list-inline-item
-                            i.fab.fa-less
-                        li.list-inline-item
-                            i.fab.fa-wordpress
-                        li.list-inline-item
-                            i.fab.fa-gulp
-                        li.list-inline-item
-                            i.fab.fa-grunt
-                        li.list-inline-item
-                            i.fab.fa-npm
-                    .subheading.mb-3 Workflow
-                    ul.fa-ul.mb-0
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Mobile-First, Responsive Design
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Cross Browser Testing & Debugging
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Cross Functional Teams
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Agile Development & Scrum
+                    .d-flex.flex-column.flex-md-row.row
+                        .resume-content.mr-auto.col
+                            .h3.mb-3 Technical Skills
+                            p As far as #[strong programming] goes, I'm proficient in:
+                            ul
+                                li Python
+                                li C / C++
+                                li Java
+                            p I also have experience working with several other tools and languages:
+                            ul
+                                li Unix
+                                li R
+                                li MATLAB
+                                li LaTeX
+                                li JavaScript
+                                li HTML/CSS
+                            p I've worked with the following web application and machine learning frameworks:
+                            ul
+                                li TensorFlow
+                                li Keras
+                                li Scikit-learn
+                                li PyTorch
+                                li Flask
+
+                        .resume-content.mr-auto.col
+                            .h3.mb-3 Teaching
+                            p I have experience teaching and working with students of all ages:
+                            p #[strong Math] (up to and including multivariable calculus):
+                            ul
+                                li I was a math instructor at the #[strong Mathnasium of Crofton] (May 2017 - August 2017), where I instructed and assessed elementary, middle, and high school students in math up to pre-calculus.
+                                li I served as teaching assistant in my high school Multivariable Calculus course, tutoring students in one-on-one study sessions, including homework help.
+                            p #[strong Music theory:]
+                            ul
+                                li I assisted my piano teacher in instructing and assessing students in music theory and history in preparation for the #[strong Maryland State Music Teachers Association Music Theory Exam] (April 2014 - August 2016).
+                                li I tutored students in AP Music Theory (September 2014 - May 2015) and received a 5 on the AP Music Theory Exam.
+                    
 
             hr.m-0
 
-            // Interests
-            section#interests.resume-section
+            // Activities
+            section#activities.resume-section
                 .resume-section-content
-                    h2.mb-5 Interests
-                    p
-                        | Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
-                    p.mb-0
-                        | When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
+                    h2.mb-5 Activities
+
+                    p I am involved in the following organizations:
+                    ul
+                        li #[strong Alpha Kappa Psi - Pi Tau Chapter]
+                            ul
+                                li #[em Alumna] (2021 - present): I volunteer for workshops and other events within the Professional Development Program.
+                                li #[em Leadership] (2020 - 2021):
+                                    ul
+                                        li #[em Marketing:] I handled our social media presence and design marketing materials. I also coordinated both inter- and intra-organization communication.
+                                        li #[em Membership:] I helped guide the Spring 2021 new member cohort through our Professional Development Program.
+                                li #[em General Member] (2019 - 2021):
+                                    ul
+                                        li
+                                            | I contributed to corporate projects, including conducting equity research for
+                                            | #[a(href="https://www.parnassus.com" target="_blank") Parnassus Investments]
+                                            | and #[a(href="https://www.goaheadvc.com/" target="_blank") GoAhead Ventures]
+                                            | and developing a visual tool to analyze the economic impact of COVID-19 for
+                                            | #[a(href="https://www.linkedin.com/company/matrix-capital-management-llc/" target="_blank") Matrix Capital Management].
+                                        li I also helped organize a college counseling workshop for high school students.
+                        li
+                            | #[strong Rewriting the Code] (2018 - present):
+                            | Rewriting the Code is a national non-profit organization dedicated to empowering a community of  college women with a passion for technology.
+                            | As a Fellow, I contribute to the network of women in tech, participating in professional development opportunities.
+
+                    p I've been playing the #[strong piano] since the age of five, and I studied music theory quite extensively.
+                    ul
+                        li Up until college, I studied under #[strong Dr. Hui-Yen Chang], with the Maryland State Music Teachers Association (#[strong MSMTA]).
+                        li I received the #[strong MSMTA Advanced Keyboard Musicianship Honors] for receiving outstanding scores on Levels 1-10 of the MSMTA Keyboard Musicianship Program.
+                        li I also received the #[strong MSMTA Senior and Distinguished Theory Awards] for passing Level 12 (the highest level) of the MSMTA Theory Test with a score of 90% or better.
+                        li And although I no longer formally study music, I still continue to play piano regularly.
+
+                    p I also played #[strong violin] for eight years.
+                    ul
+                        li I played in my school orchestras from elementary through high school.
+                        li I was the concert orchestra section leader of the #[strong Chesapeake Youth Symphony Orchestra].
+
+                    p And just some other things I like to do in my spare time:
+                    ul
+                        li #[strong Reading:] My favorite novel is #[em East of Eden] by John Steinbeck.
+                        li
+                            | #[strong Creative writing:]
+                            | I'm a regular participant of #[a(href="http://nanowrimo.org/" target="_blank") NaNoWriMo],
+                            | and I am particularly interested in mythology and world-building.
+                            | I'm also currently challenging myself to write more short stories and expand into new genres.
+                        li And just generally exploring new places, meeting new people, and learning new things!
 
             hr.m-0
 
-            // Awards
-            section#awards.resume-section
+            // Contact
+            section#contact.resume-section
                 .resume-section-content
-                    h2.mb-5 Awards & Certifications
-                    ul.fa-ul.mb-0
+                    h2.mb-5 Contact
+                    p You can reach me at:
+                    ul
                         li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Google Analytics Certified Developer
+                            | #[strong Preferred Email:] #[a(href='mailto:tatianawu@alumni.stanford.edu' target='_blank') tatianawu@alumni.stanford.edu]
                         li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Mobile Web Specialist - Google Certification
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 2
-                            sup nd 
-                            | Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - James Buchanan High School - Hackathon 2006
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 3
-                            sup rd 
-                            | Place - James Buchanan High School - Hackathon 2005
+                            | #[strong Personal Email:] #[a(href='mailto:tatiana.wu99@gmail.com' target='_blank') tatiana.wu99@gmail.com]
 
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js')
-
+        
         // Core theme JS
         script(src='js/scripts.js')
